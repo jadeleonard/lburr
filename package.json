@@ -1,0 +1,51 @@
+{
+  "name": "lburr",
+  "version": "1.0.0",
+  "description": "Card maker: Create your own card with various designs.",
+  "main": "dist/index.js", 
+  "types": "src/index.d.ts",
+  "files": ["dist", "src"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": ["design", "cards", "ui"],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.5",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@cra-community/cra-template-animated-routes-typescript": "^0.1.1",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/lburr.git" 
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/lburr/issues"
+  },
+  "homepage": "https://github.com/yourusername/lburr"
+}
